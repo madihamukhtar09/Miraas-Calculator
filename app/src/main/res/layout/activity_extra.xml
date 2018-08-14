@@ -1,0 +1,1133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:fillViewport="false"
+    android:background="#4DB6AC">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="5dp"
+        android:weightSum="5"
+        android:background="@drawable/ripple_effect">
+
+
+        <AbsoluteLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/Amount1"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="50dp"
+                android:layout_x="0dp"
+                android:layout_y="79dp"
+                android:background="@drawable/button_img"
+                android:gravity="center"
+                android:text="Amount"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/Amount"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="0dp"
+                android:layout_marginTop="50dp"
+                android:layout_x="164dp"
+                android:layout_y="79dp"
+                android:background="@drawable/button_img"
+                android:gravity="center"
+                android:inputType="number"
+                android:selectAllOnFocus="true" />
+        </AbsoluteLayout>
+
+        <AbsoluteLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/Husband"
+                android:text="Husband"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="20dp"
+                android:layout_x="0dp"
+                android:layout_y="23dp"
+                android:background="@drawable/button_img"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/husband"
+                android:text="0"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="0dp"
+                android:layout_marginTop="20dp"
+                android:layout_x="166dp"
+                android:layout_y="23dp"
+                android:background="@drawable/button_img"
+                android:gravity="center"
+                android:inputType="number"
+                android:selectAllOnFocus="true" />
+        </AbsoluteLayout>
+
+        <AbsoluteLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/Wives"
+                android:text="Wives"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="20dp"
+                android:layout_x="0dp"
+                android:layout_y="23dp"
+                android:background="@drawable/button_img"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/Wife"
+                android:text="0"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="0dp"
+                android:layout_marginTop="20dp"
+                android:layout_x="166dp"
+                android:layout_y="23dp"
+                android:background="@drawable/button_img"
+                android:gravity="center"
+                android:inputType="number"
+                android:selectAllOnFocus="true" />
+        </AbsoluteLayout>
+
+        <AbsoluteLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/Daughters"
+                android:text="Daughters"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="20dp"
+                android:layout_x="0dp"
+                android:layout_y="23dp"
+                android:background="@drawable/button_img"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+
+            <EditText
+                android:id="@+id/Daughter"
+                android:text="0"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="0dp"
+                android:layout_marginTop="20dp"
+                android:layout_x="166dp"
+                android:layout_y="23dp"
+                android:background="@drawable/button_img"
+                android:gravity="center"
+                android:inputType="number"
+                android:selectAllOnFocus="true"
+                />
+        </AbsoluteLayout>
+
+        <AbsoluteLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/Sons"
+                android:text="Sons"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="20dp"
+                android:layout_x="0dp"
+                android:layout_y="23dp"
+                android:background="@drawable/button_img"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                />
+
+            <EditText
+                android:id="@+id/Son"
+                android:text="0"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="0dp"
+                android:layout_marginTop="20dp"
+                android:layout_x="166dp"
+                android:layout_y="23dp"
+                android:background="@drawable/button_img"
+                android:gravity="center"
+                android:inputType="number"
+                android:selectAllOnFocus="true"
+                />
+        </AbsoluteLayout>
+
+        <AbsoluteLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/GrandSons"
+                android:text="GrandSons"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="20dp"
+                android:layout_x="0dp"
+                android:layout_y="23dp"
+                android:background="@drawable/button_img"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+            <EditText
+                android:id="@+id/GrandSon"
+                android:text="0"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="0dp"
+                android:layout_marginTop="20dp"
+                android:layout_x="166dp"
+                android:layout_y="23dp"
+                android:background="@drawable/button_img"
+                android:gravity="center"
+                android:inputType="number"
+                android:selectAllOnFocus="true"
+                />
+        </AbsoluteLayout>
+        <AbsoluteLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/GrandDaughters"
+                android:text="GrandDaughters"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="20dp"
+                android:layout_x="0dp"
+                android:layout_y="23dp"
+                android:background="@drawable/button_img"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                />
+
+            <EditText
+                android:id="@+id/GrandDaughter"
+                android:text="0"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="0dp"
+                android:layout_marginTop="20dp"
+                android:layout_x="166dp"
+                android:layout_y="23dp"
+                android:background="@drawable/button_img"
+                android:gravity="center"
+                android:inputType="number"
+                android:selectAllOnFocus="true" />
+        </AbsoluteLayout>
+
+
+        <AbsoluteLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/Father"
+                android:text="Father"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="20dp"
+                android:layout_x="0dp"
+                android:layout_y="23dp"
+                android:background="@drawable/button_img"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+            <Spinner
+                android:id="@+id/selectfather"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_x="166dp"
+                android:layout_y="23dp"
+                android:layout_marginRight="0dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="20dp"
+                android:selectAllOnFocus="true"
+                android:gravity="center"
+                android:background="@drawable/button_img">
+            </Spinner>
+
+        </AbsoluteLayout>
+
+
+        <AbsoluteLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/Mother"
+                android:text="Mother"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="20dp"
+                android:layout_x="0dp"
+                android:layout_y="23dp"
+                android:background="@drawable/button_img"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/selectmother"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_x="166dp"
+                android:layout_y="23dp"
+                android:layout_marginRight="0dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="20dp"
+                android:selectAllOnFocus="true"
+                android:gravity="center"
+                android:background="@drawable/button_img">
+            </Spinner>
+
+        </AbsoluteLayout>
+
+
+
+
+        <AbsoluteLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/GrandFather"
+                android:text="GrandFather"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="20dp"
+                android:layout_x="0dp"
+                android:layout_y="23dp"
+                android:background="@drawable/button_img"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                />
+
+            <EditText
+                android:id="@+id/Grandfather"
+                android:text="0"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="0dp"
+                android:layout_marginTop="20dp"
+                android:layout_x="166dp"
+                android:layout_y="23dp"
+                android:background="@drawable/button_img"
+                android:gravity="center"
+                android:inputType="number"
+                android:selectAllOnFocus="true" />
+        </AbsoluteLayout>
+
+
+        <AbsoluteLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/PaternalGrandmother"
+                android:text="Paternal Grandmother"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="20dp"
+                android:layout_x="0dp"
+                android:layout_y="23dp"
+                android:background="@drawable/button_img"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+            <EditText
+                android:id="@+id/Paternalgrandmother"
+                android:text="0"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="0dp"
+                android:layout_marginTop="20dp"
+                android:layout_x="166dp"
+                android:layout_y="23dp"
+                android:background="@drawable/button_img"
+                android:gravity="center"
+                android:inputType="number"
+                android:selectAllOnFocus="true" />
+        </AbsoluteLayout>
+
+
+
+        <AbsoluteLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/MaternalGrandmother"
+                android:text="Maternal Grandmother"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="20dp"
+                android:layout_x="0dp"
+                android:layout_y="23dp"
+                android:background="@drawable/button_img"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+            <EditText
+                android:id="@+id/Maternalgrandmother"
+                android:text="0"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="0dp"
+                android:layout_marginTop="20dp"
+                android:layout_x="166dp"
+                android:layout_y="23dp"
+                android:background="@drawable/button_img"
+                android:gravity="center"
+                android:inputType="number"
+                android:selectAllOnFocus="true" />
+        </AbsoluteLayout>
+
+        <AbsoluteLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/FullBrothers"
+                android:text="Full Brothers"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="20dp"
+                android:layout_x="0dp"
+                android:layout_y="23dp"
+                android:background="@drawable/button_img"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                />
+            <EditText
+                android:id="@+id/FullBrother"
+                android:text="0"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="0dp"
+                android:layout_marginTop="20dp"
+                android:layout_x="166dp"
+                android:layout_y="23dp"
+                android:background="@drawable/button_img"
+                android:gravity="center"
+                android:inputType="number"
+                android:selectAllOnFocus="true" />
+        </AbsoluteLayout>
+
+
+        <AbsoluteLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/FullSisters"
+                android:text="Full Sisters"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="20dp"
+                android:layout_x="0dp"
+                android:layout_y="23dp"
+                android:background="@drawable/button_img"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+            <EditText
+                android:id="@+id/FullSister"
+                android:text="0"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="0dp"
+                android:layout_marginTop="20dp"
+                android:layout_x="166dp"
+                android:layout_y="23dp"
+                android:background="@drawable/button_img"
+                android:gravity="center"
+                android:inputType="number"
+                android:selectAllOnFocus="true" />
+        </AbsoluteLayout>
+
+
+        <AbsoluteLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/PaternalBrothers"
+                android:text="Paternal Brothers"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="20dp"
+                android:layout_x="0dp"
+                android:layout_y="23dp"
+                android:background="@drawable/button_img"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+            <EditText
+                android:id="@+id/PaternalBrother"
+                android:text="0"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="0dp"
+                android:layout_marginTop="20dp"
+                android:layout_x="166dp"
+                android:layout_y="23dp"
+                android:background="@drawable/button_img"
+                android:gravity="center"
+                android:inputType="number"
+                android:selectAllOnFocus="true" />
+        </AbsoluteLayout>
+
+        <AbsoluteLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/PaternalSisters"
+                android:text="Paternal Sisters"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="20dp"
+                android:layout_x="0dp"
+                android:layout_y="23dp"
+                android:background="@drawable/button_img"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                />
+            <EditText
+                android:id="@+id/PaternalSister"
+                android:text="0"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="0dp"
+                android:layout_marginTop="20dp"
+                android:layout_x="166dp"
+                android:layout_y="23dp"
+                android:background="@drawable/button_img"
+                android:gravity="center"
+                android:inputType="number"
+                android:selectAllOnFocus="true" />
+        </AbsoluteLayout>
+
+
+        <AbsoluteLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/MaternalBrothers"
+                android:text="Maternal Brothers"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="20dp"
+                android:layout_x="0dp"
+                android:layout_y="23dp"
+                android:background="@drawable/button_img"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                />
+            <EditText
+                android:id="@+id/MaternalBrother"
+                android:text="0"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="0dp"
+                android:layout_marginTop="20dp"
+                android:layout_x="166dp"
+                android:layout_y="23dp"
+                android:background="@drawable/button_img"
+                android:gravity="center"
+                android:inputType="number"
+                android:selectAllOnFocus="true"
+                />
+        </AbsoluteLayout>
+
+        <AbsoluteLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/MaternalSisters"
+                android:text="Maternal Sisters"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="20dp"
+                android:layout_x="0dp"
+                android:layout_y="23dp"
+                android:background="@drawable/button_img"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                />
+            <EditText
+                android:id="@+id/MaternalSister"
+                android:text="0"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="0dp"
+                android:layout_marginTop="20dp"
+                android:layout_x="166dp"
+                android:layout_y="23dp"
+                android:background="@drawable/button_img"
+                android:gravity="center"
+                android:inputType="number"
+                android:selectAllOnFocus="true" />
+        </AbsoluteLayout>
+
+
+        <AbsoluteLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/FullNephews"
+                android:text="Full Nephews"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="20dp"
+                android:layout_x="0dp"
+                android:layout_y="23dp"
+                android:background="@drawable/button_img"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                />
+            <EditText
+                android:id="@+id/FullNephew"
+                android:text="0"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="0dp"
+                android:layout_marginTop="20dp"
+                android:layout_x="166dp"
+                android:layout_y="23dp"
+                android:background="@drawable/button_img"
+                android:gravity="center"
+                android:inputType="number"
+                android:selectAllOnFocus="true" />
+        </AbsoluteLayout>
+
+        <AbsoluteLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/FullNieces"
+                android:text="Full Niece"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="20dp"
+                android:layout_x="0dp"
+                android:layout_y="23dp"
+                android:background="@drawable/button_img"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                />
+            <EditText
+                android:id="@+id/FullNiece"
+                android:text="0"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="0dp"
+                android:layout_marginTop="20dp"
+                android:layout_x="166dp"
+                android:layout_y="23dp"
+                android:background="@drawable/button_img"
+                android:gravity="center"
+                android:inputType="number"
+                android:selectAllOnFocus="true" />
+        </AbsoluteLayout>
+
+        <AbsoluteLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/FullPaternalUncles"
+                android:text="Full Paternal Uncles"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="20dp"
+                android:layout_x="0dp"
+                android:layout_y="23dp"
+                android:background="@drawable/button_img"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                />
+            <EditText
+                android:id="@+id/FullPaternalUncle"
+                android:text="0"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="0dp"
+                android:layout_marginTop="20dp"
+                android:layout_x="166dp"
+                android:layout_y="23dp"
+                android:background="@drawable/button_img"
+                android:gravity="center"
+                android:inputType="number"
+                android:selectAllOnFocus="true" />
+        </AbsoluteLayout>
+
+
+
+
+        <AbsoluteLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/thirdMalePersons"
+                android:text="Third Person Male"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="20dp"
+                android:layout_x="0dp"
+                android:layout_y="23dp"
+                android:background="@drawable/button_img"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                />
+            <EditText
+                android:id="@+id/thirdMalePerson"
+                android:text="0"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="0dp"
+                android:layout_marginTop="20dp"
+                android:layout_x="166dp"
+                android:layout_y="23dp"
+                android:background="@drawable/button_img"
+                android:gravity="center"
+                android:inputType="number"
+                android:selectAllOnFocus="true" />
+        </AbsoluteLayout>
+
+
+        <AbsoluteLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/thirdFemalePersons"
+                android:text="Third Person Female"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="20dp"
+                android:layout_x="0dp"
+                android:layout_y="23dp"
+                android:background="@drawable/button_img"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                />
+            <EditText
+                android:id="@+id/thirdFemalePerson"
+                android:text="0"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="0dp"
+                android:layout_marginTop="20dp"
+                android:layout_x="166dp"
+                android:layout_y="23dp"
+                android:background="@drawable/button_img"
+                android:gravity="center"
+                android:inputType="number"
+                android:selectAllOnFocus="true" />
+        </AbsoluteLayout>
+
+
+        <AbsoluteLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/thirdbothPersons"
+                android:text="Third Person Both"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="20dp"
+                android:layout_x="0dp"
+                android:layout_y="23dp"
+                android:background="@drawable/button_img"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                />
+            <EditText
+                android:id="@+id/thirdbothPerson"
+                android:text="0"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="0dp"
+                android:layout_marginTop="20dp"
+                android:layout_x="166dp"
+                android:layout_y="23dp"
+                android:background="@drawable/button_img"
+                android:gravity="center"
+                android:inputType="number"
+                android:selectAllOnFocus="true" />
+        </AbsoluteLayout>
+
+
+        <AbsoluteLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/daughtersSons"
+                android:text="Daughters Son"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="20dp"
+                android:layout_x="0dp"
+                android:layout_y="23dp"
+                android:background="@drawable/button_img"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+            <EditText
+                android:id="@+id/daughtersSon"
+                android:text="0"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="0dp"
+                android:layout_marginTop="20dp"
+                android:layout_x="166dp"
+                android:layout_y="23dp"
+                android:background="@drawable/button_img"
+                android:gravity="center"
+                android:inputType="number"
+                android:selectAllOnFocus="true"
+                />
+        </AbsoluteLayout>
+
+
+        <AbsoluteLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/daughtersDaughters"
+                android:text="Daughters Daughter"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="20dp"
+                android:layout_x="0dp"
+                android:layout_y="23dp"
+                android:background="@drawable/button_img"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+            <EditText
+                android:id="@+id/daughtersDaughter"
+                android:text="0"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="0dp"
+                android:layout_marginTop="20dp"
+                android:layout_x="166dp"
+                android:layout_y="23dp"
+                android:background="@drawable/button_img"
+                android:gravity="center"
+                android:inputType="number"
+                android:selectAllOnFocus="true"
+                />
+        </AbsoluteLayout>
+
+        <AbsoluteLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/daughtersDaughtersSons"
+                android:text="Daughters Daughters Son"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="20dp"
+                android:layout_x="0dp"
+                android:layout_y="23dp"
+                android:background="@drawable/button_img"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                />
+            <EditText
+                android:id="@+id/daughtersDaughtersSon"
+                android:text="0"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="0dp"
+                android:layout_marginTop="20dp"
+                android:layout_x="166dp"
+                android:layout_y="23dp"
+                android:background="@drawable/button_img"
+                android:gravity="center"
+                android:inputType="number"
+                android:selectAllOnFocus="true"
+                />
+        </AbsoluteLayout>
+
+
+
+        <AbsoluteLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/daughtersDaughtersDaughters"
+                android:text="Daughters Daughters Daughter"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="20dp"
+                android:layout_x="0dp"
+                android:layout_y="23dp"
+                android:background="@drawable/button_img"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                />
+            <EditText
+                android:id="@+id/daughtersDaughtersDaughter"
+                android:text="0"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="0dp"
+                android:layout_marginTop="20dp"
+                android:layout_x="166dp"
+                android:layout_y="23dp"
+                android:background="@drawable/button_img"
+                android:gravity="center"
+                android:inputType="number"
+                android:selectAllOnFocus="true"
+                />
+        </AbsoluteLayout>
+
+        <AbsoluteLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/daughtersSonsSons"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Daughters Sons Son"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="20dp"
+                android:layout_x="0dp"
+                android:layout_y="23dp"
+                android:background="@drawable/button_img"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                />
+            <EditText
+                android:id="@+id/daughtersSonsSon"
+                android:text="0"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="0dp"
+                android:layout_marginTop="20dp"
+                android:layout_x="166dp"
+                android:layout_y="23dp"
+                android:background="@drawable/button_img"
+                android:gravity="center"
+                android:inputType="number"
+                android:selectAllOnFocus="true"
+                />
+        </AbsoluteLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/fac5"
+                android:layout_width="60dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="30dp"
+                android:layout_x="0dp"
+                android:layout_y="23dp"
+                android:src="@drawable/money" />
+
+            <Button
+                android:text="Calculate"
+                android:id="@+id/Calculate"
+                android:layout_width="120dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="60dp"
+                android:layout_x="0dp"
+                android:layout_y="23dp"
+                android:background="@drawable/button_img"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/fac10"
+                android:layout_width="60dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="30dp"
+                android:layout_x="0dp"
+                android:layout_y="23dp"
+                android:src="@drawable/money" />
+<!--
+            <ImageView
+                android:id="@+id/fac6"
+                android:layout_width="60dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="80dp"
+                android:src="@drawable/money" />-->
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <Button
+
+                android:text="History"
+                android:id="@+id/history"
+                android:layout_width="120dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="93dp"
+                android:layout_marginTop="30dp"
+                android:layout_x="0dp"
+                android:layout_y="23dp"
+                android:background="@drawable/button_img"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/fac1"
+                android:layout_width="70dp"
+                android:layout_height="110dp"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/coin" />
+            <ImageView
+                android:id="@+id/fac9"
+                android:layout_width="60dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/coin" />
+            <ImageView
+                android:id="@+id/fac8"
+                android:layout_width="60dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/coin" />
+
+            <ImageView
+                android:id="@+id/fac4"
+                android:layout_width="70dp"
+                android:layout_height="110dp"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/coin"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_history"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:scrollbarThumbVertical="@drawable/vertical_scrollview_thumb"
+    android:scrollbarTrackVertical="@drawable/vertical_scrollview_track"
+    tools:context="com.example.madiha.fyp.MainActivity"
+    android:background="#4DB6AC">
+
+    <ScrollView
+        android:layout_width="match_parent" android:layout_height="match_parent"
+        android:clickable="?attr/windowActionBar"
+        android:id="@+id/relativeLayout"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+        <HorizontalScrollView android:id="@+id/HorizontalScrollView01"
+            android:layout_height="fill_parent" android:layout_width="wrap_content">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/table1">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </TableLayout>
+        </HorizontalScrollView>
+    </ScrollView>
+</RelativeLayout>
